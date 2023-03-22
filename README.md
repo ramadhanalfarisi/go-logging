@@ -7,7 +7,7 @@ The go-logging package used to log all errors, infos, warnings, and debugs in yo
 ### Preparation
 Create your log folder in your root code or anywhere, in the case, i created my log folder in my root path
 
-### Simple Example
+### Simple Example Usage
 ```go
 package main
 
