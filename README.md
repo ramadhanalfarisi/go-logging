@@ -2,7 +2,9 @@
 The go-logging package used to log all errors, infos, warnings, and debugs in your code
 
 ### Install
-`go get github.com/ramadhanalfarisi/go-logging`
+```shell
+go get github.com/ramadhanalfarisi/go-logging
+```
 
 ### Preparation
 Create your log folder in your root code or anywhere, in the case, i created my log folder in my root path
