@@ -24,7 +24,7 @@ var (
 // To config logging function
 func ConfigLogging(debug bool, folderpath string) logging {
 	var f *os.File
-	log_path := folderpath + date + ".txt"
+	log_path := folderpath + date + ".log"
 	if _, err := os.Stat(log_path); os.IsNotExist(err) {
 		var errcreate error
 		f, errcreate = os.Create(log_path)
